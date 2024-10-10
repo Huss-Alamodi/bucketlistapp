@@ -1,5 +1,6 @@
 # Getting Started with Create React App
 
+**First**, make sure you have [nodejs](https://nodejs.org/en/download/prebuilt-installer/current) installed.\
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
