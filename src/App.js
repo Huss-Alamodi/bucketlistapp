@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// Import your components
+import FriendspageComponent from './FriendspageComponent';
+import HomepageComponent from './HomepageComponent'; 
+import LoadingpageComponent from './LoadingpageComponent';
+import LoginPageComponent from './LoginPageComponent'; 
+import ProfilepageComponent from './ProfilepageComponent';
+import BottomNavBar from './BottomNavBar'; // Import the navigation bar
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div>
+        {/* Define your routes */}
+        <Routes>
+          <Route path="/" element={<HomepageComponent />} />
+          <Route path="/friends" element={<FriendspageComponent />} />
+          <Route path="/loading" element={<LoadingpageComponent />} />
+          <Route path="/login" element={<LoginPageComponent />} />
+          <Route path="/profile" element={<ProfilepageComponent />} />
+        </Routes>
+
+        {/* Always show the bottom navigation bar */}
+        <BottomNavBar />
+      </div>
+    </Router>
   );
 }
 

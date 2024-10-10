@@ -1,3 +1,4 @@
+/* Existing styles */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +12,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Add styles for the bottom navigation bar */
+nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333; /* Dark background color */
+  padding: 10px 0; /* Padding around the nav links */
+  display: flex;
+  justify-content: space-around; /* Evenly space the buttons */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for visual separation */
+  z-index: 1000; /* Ensure it stays above other content */
+}
+
+nav a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 18px; /* Size of the text */
+}
+
+nav a:hover {
+  color: #ccc; /* Lighten the text color on hover */
+}
+
+/* Responsive design for mobile devices */
+@media (max-width: 768px) {
+  nav a {
+    font-size: 16px; /* Slightly smaller font on mobile */
+  }
+}
+
