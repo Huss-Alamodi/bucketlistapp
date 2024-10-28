@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/bucketlistapp/static/css/main.5d6cc6c0.css",
+    "main.js": "/bucketlistapp/static/js/main.20cfbc3b.js",
+    "static/js/453.f9dbf100.chunk.js": "/bucketlistapp/static/js/453.f9dbf100.chunk.js",
+    "static/media/Bucket.svg": "/bucketlistapp/static/media/Bucket.cbdca6a7fdcf38e47bf3fcb78157ab11.svg",
+    "index.html": "/bucketlistapp/index.html",
+    "static/media/Friends.svg": "/bucketlistapp/static/media/Friends.6cebe0a764fbd67f99c7fff75bbd2187.svg",
+    "static/media/Profile.svg": "/bucketlistapp/static/media/Profile.8ccb523f78a47aed2cc748f5b815826c.svg",
+    "main.5d6cc6c0.css.map": "/bucketlistapp/static/css/main.5d6cc6c0.css.map",
+    "main.20cfbc3b.js.map": "/bucketlistapp/static/js/main.20cfbc3b.js.map",
+    "453.f9dbf100.chunk.js.map": "/bucketlistapp/static/js/453.f9dbf100.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d6cc6c0.css",
+    "static/js/main.20cfbc3b.js"
+  ]
+}
