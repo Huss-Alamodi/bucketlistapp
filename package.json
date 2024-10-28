@@ -1,4 +1,7 @@
 {
+  "homepage": "https://ccxd888.github.io/bucketlistapp"
+}
+{
   "name": "bucketlistapp",
   "version": "0.1.0",
   "private": true,
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@svgr/webpack": "^8.1.0"
+    "@svgr/webpack": "^8.1.0",
+    "gh-pages": "^6.2.0"
   }
 }
