@@ -1,0 +1,66 @@
+/* components/DifficultySlider.css */
+.difficulty-slider {
+    width: 80%;
+    text-align: center;
+    color: #FFF;
+}
+
+.difficulty-label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.difficulty-range {
+    width: 100%;
+    -webkit-appearance: none;
+    /* Remove default styling */
+    appearance: none;
+    /* Remove default styling */
+    background: linear-gradient(to right, #FF8888 0%, #FF8888 var(--value), #ccc var(--value), #ccc 100%);
+    /* Dynamic background */
+    height: 8px;
+    /* Track height */
+    border-radius: 5px;
+    /* Track border radius */
+    outline: none;
+    /* Remove outline */
+    transition: background 0.3s;
+    /* Smooth transition */
+}
+
+.difficulty-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    /* Remove default styling */
+    appearance: none;
+    /* Remove default styling */
+    width: 20px;
+    /* Thumb width */
+    height: 20px;
+    /* Thumb height */
+    background: #FFF;
+    /* Thumb color */
+    border-radius: 50%;
+    /* Thumb border radius */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.difficulty-range::-moz-range-thumb {
+    width: 20px;
+    /* Thumb width */
+    height: 20px;
+    /* Thumb height */
+    background: #FFF;
+    /* Thumb color */
+    border-radius: 50%;
+    /* Thumb border radius */
+    cursor: pointer;
+    /* Cursor on hover */
+}
+
+.difficulty-levels {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}

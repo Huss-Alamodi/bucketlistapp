@@ -1,0 +1,14 @@
+/* components/Footer.css */
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    background-color: #FF8888;
+    color: #FFF;
+  }
+  
+  .footer-button {
+    background: none;
+    border: none;
+  }
