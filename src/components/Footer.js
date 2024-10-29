@@ -9,10 +9,10 @@ function Footer() {
   return (
     <footer className="footer">
       <button className="footer-button" aria-label="Friends">
-        <FriendsIcon width="24px" height="24px" fill="#FFF" />
+        <FriendsIcon width="24px" height="24px" fill="#F9EBB7" />
       </button>
       <button className="footer-button" aria-label="Challenges">
-        <BucketIcon width="24px" height="24px" fill="#FFF" />
+        <BucketIcon width="24px" height="24px" fill="#F9EBB7" />
       </button>
       <button className="footer-button" aria-label="Profile">
         <ProfileIcon width="24px" height="24px" fill="#FFF" />

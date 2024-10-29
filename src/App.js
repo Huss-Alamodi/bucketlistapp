@@ -12,7 +12,7 @@ function App() {
       <Header />
       <Greeting name="James" />
       <DifficultySlider />
-      <ChallengeCard />
+      <ChallengeCard challenge='Dang boy, SUIIIIII' />
       <Footer />
     </div>
   );

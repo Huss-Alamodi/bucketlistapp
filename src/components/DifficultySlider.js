@@ -6,8 +6,10 @@ function DifficultySlider() {
   const [value, setValue] = useState(1);
 
   const handleChange = (event) => {
-    const newValue = event.target.value;
+    const newValue = parseInt(event.target.value, 10);
     setValue(newValue);
+
+    // Adjust gradient position based on value
     event.target.style.setProperty('--value', `${(newValue - 1) * 50}%`);
   };
 

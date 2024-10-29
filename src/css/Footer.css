@@ -1,4 +1,4 @@
-/* components/Footer.css */
+/* footer.css */
 .footer {
     width: 100%;
     display: flex;
@@ -6,9 +6,19 @@
     padding: 1rem;
     background-color: #FF8888;
     color: #FFF;
+    position: sticky; /* Ensures it stays at the bottom */
+    bottom: 0;
   }
   
   .footer-button {
     background: none;
     border: none;
   }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 768px) {
+    .footer {
+      padding: 1rem 0;
+    }
+  }
+  

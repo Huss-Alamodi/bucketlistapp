@@ -1,17 +1,23 @@
 // components/ChallengeCard.js
 import React from 'react';
+import PropTypes from 'prop-types';
+import '../css/ChallengeCard.css';
 
-function ChallengeCard() {
+function ChallengeCard({ challenge }) {
   return (
-    <section style={{ backgroundColor: '#FFF5DC', color: '#333', padding: '1rem', borderRadius: '1rem', width: '80%', textAlign: 'center', margin: '1rem 0' }}>
-      <h3 style={{ margin: '0.5rem 0' }}>Your challenge today is:</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec voila ornare velit eu efficitur.</p>
-      <div style={{ display: 'flex', justifyContent: 'space-around', marginTop: '1rem' }}>
-        <button style={{ background: 'none', border: 'none', fontSize: '1.5rem' }}>➡️</button>
-        <button style={{ background: 'none', border: 'none', fontSize: '1.5rem' }}>✔️</button>
+    <section className="challenge-card">
+      <h3>Your challenge today is:</h3>
+      <p>{challenge}</p>
+      <div className="challenge-card-buttons">
+        <button className="challenge-card-button">➡️</button>
+        <button className="challenge-card-button">✔️</button>
       </div>
     </section>
   );
 }
+
+ChallengeCard.propTypes = {
+  challenge: PropTypes.string.isRequired,
+};
 
 export default ChallengeCard;

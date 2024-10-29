@@ -1,0 +1,31 @@
+
+.challenge-card {
+    background-color: #fff5dc;
+    color: #333;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 80%;
+    text-align: center;
+    margin: 1rem 0;
+  }
+  
+  .challenge-card h3 {
+    margin: 0.5rem 0;
+  }
+  
+  .challenge-card p {
+    margin: 0.5rem 0;
+  }
+  
+  .challenge-card-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+  
+  .challenge-card-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
