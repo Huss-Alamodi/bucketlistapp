@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/bucketlistapp/static/css/main.f01067d7.css",
-    "main.js": "/bucketlistapp/static/js/main.5e708af5.js",
+    "main.js": "/bucketlistapp/static/js/main.585e5cee.js",
     "static/js/453.f9dbf100.chunk.js": "/bucketlistapp/static/js/453.f9dbf100.chunk.js",
-    "static/media/Bucket.svg": "/bucketlistapp/static/media/Bucket.9edfc7959bdc4e072f886e4b1fb3ab4d.svg",
+    "static/media/Bucket.svg": "/bucketlistapp/static/media/Bucket.cbdca6a7fdcf38e47bf3fcb78157ab11.svg",
     "index.html": "/bucketlistapp/index.html",
-    "static/media/Friends.svg": "/bucketlistapp/static/media/Friends.8f91ef5e699077224cc1526844422413.svg",
-    "static/media/Profile.svg": "/bucketlistapp/static/media/Profile.8ccb523f78a47aed2cc748f5b815826c.svg",
+    "static/media/Friends.svg": "/bucketlistapp/static/media/Friends.6cebe0a764fbd67f99c7fff75bbd2187.svg",
+    "static/media/Profile.svg": "/bucketlistapp/static/media/Profile.bc8d5881689357144c98f04d48365954.svg",
     "static/media/Bell.svg": "/bucketlistapp/static/media/Bell.7902fde18facc18bbad6f721da41d982.svg",
     "main.f01067d7.css.map": "/bucketlistapp/static/css/main.f01067d7.css.map",
-    "main.5e708af5.js.map": "/bucketlistapp/static/js/main.5e708af5.js.map",
+    "main.585e5cee.js.map": "/bucketlistapp/static/js/main.585e5cee.js.map",
     "453.f9dbf100.chunk.js.map": "/bucketlistapp/static/js/453.f9dbf100.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f01067d7.css",
-    "static/js/main.5e708af5.js"
+    "static/js/main.585e5cee.js"
   ]
 }
