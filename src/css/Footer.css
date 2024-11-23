@@ -1,24 +1,34 @@
-/* footer.css */
 .footer {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    padding: 1rem;
-    background-color: #FF8888;
-    color: #FFF;
-    position: sticky; /* Ensures it stays at the bottom */
-    bottom: 0;
-  }
+  background-color: #ff4d4d; /* Daha kırmızı bir arka plan */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+.footer-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer-button svg {
+  transition: transform 0.2s ease-in-out;
+}
+
+.footer-button:hover svg {
+  transform: scale(1.1); /* Hover üzerinde biraz büyüme efekti */
+}
+
   
-  .footer-button {
-    background: none;
-    border: none;
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .footer {
+    padding: 1rem 0;
   }
-  
-  /* Media query for mobile devices */
-  @media (max-width: 768px) {
-    .footer {
-      padding: 1rem 0;
-    }
-  }
+}
   

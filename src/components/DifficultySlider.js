@@ -1,39 +1,39 @@
-// components/DifficultySlider.js
 import React, { useState } from 'react';
-import '../css/DifficultySlider.css';
 
-function DifficultySlider() {
-  const [value, setValue] = useState(1);
+const DifficultySlider = () => {
+  const [value, setValue] = useState(50); // Varsayılan değer
 
   const handleChange = (event) => {
-    const newValue = parseInt(event.target.value, 10);
-    setValue(newValue);
-
-    // Adjust gradient position based on value
-    event.target.style.setProperty('--value', `${(newValue - 1) * 50}%`);
+    setValue(event.target.value);
   };
 
   return (
-    <section className="difficulty-slider">
-      <label htmlFor="difficulty" className="difficulty-label">Difficulty</label>
+    <div style={{ width: '80%', textAlign: 'center', marginTop: '20px' }}>
+      <label style={{ display: 'block', color: '#FFF', marginBottom: '10px' }}>Difficulty</label>
       <input
         type="range"
-        id="difficulty"
-        min="1"
-        max="3"
-        step="1"
+        min="0"
+        max="100"
         value={value}
-        className="difficulty-range"
         onChange={handleChange}
-        style={{ '--value': `${(value - 1) * 50}%` }}
+        style={{
+          width: '100%',
+          height: '8px',
+          appearance: 'none',
+          background: `linear-gradient(to right, #f50057 ${value}%, #ddd ${value}%)`, // Gradient arka plan
+          borderRadius: '10px',
+          outline: 'none',
+          transition: 'background 0.3s ease', // Akıcı geçiş
+        }}
+        className="custom-slider" // Özel stil için sınıf ekliyorum
       />
-      <div className="difficulty-levels">
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '10px', color: '#FFF' }}>
         <span>Easy</span>
         <span>Medium</span>
         <span>Hard</span>
       </div>
-    </section>
+    </div>
   );
-}
+};
 
 export default DifficultySlider;

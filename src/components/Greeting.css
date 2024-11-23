@@ -1,0 +1,37 @@
+/* Fade-in animasyonu */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards; /* 2 saniyede fade-in */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px); /* Hafif yukarıdan gelir */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Yazma efekti */
+  .typing-effect {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid #f50057; /* Yanıp sönen imleç */
+    animation: blink 0.7s step-end infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+    100% {
+      border-color: #f50057;
+    }
+  }
+  
